@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GymApp</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+
+    <string name="allTrainings">All Trainings</string>
+    <string name="mapTitle">Map</string>
+    <string name="trainingDetailsTitle">Trening Details</string>
+    <string name="add_training_title">Add Training</string>
+    <string name="add_training_add">Add</string>
+    <string name="signOut">Sign Out</string>
+    <string name="profile">Profile</string>
+    <string name="no_trainings">No trainings yet :(</string>
+    <string name="empty_list">Empty list :(</string>
+
+    <string name="sort_by_cap_down">Capacity DESC</string>
+
+    <string name="profile_name">Name</string>
+    <string name="profile_age">Age</string>
+    <string name="profile_height">Height</string>
+    <string name="profile_weight">Weight</string>
+    <string name="profile_save">Save</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897803591920",
+    "project_id": "mygymsapp-c80a2",
+    "storage_bucket": "mygymsapp-c80a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897803591920:android:5f0fde9164a3e2e001e235",
+        "android_client_info": {
+          "package_name": "com.izubcic.gymApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897803591920-a8e2pbvecn7p2oinm9pbkihjahcttuks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT0LY9PE-Qyw7eJU1tC60VSFpvmENf29k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897803591920-a8e2pbvecn7p2oinm9pbkihjahcttuks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
