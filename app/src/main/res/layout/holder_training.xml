@@ -14,14 +14,13 @@
         android:background="@color/input_background">
 
         <LinearLayout
-            android:padding="5dp"
             android:id="@+id/layoutTraining"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginRight="50dp"
-            android:layout_toEndOf="@id/image"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/itemTitle"
@@ -58,6 +57,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:layout_marginEnd="20dp"
-            android:src="@drawable/close_blue" />
+            android:src="@drawable/close_blue"
+            android:contentDescription="TODO"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

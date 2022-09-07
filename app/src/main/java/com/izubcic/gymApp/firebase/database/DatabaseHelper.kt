@@ -16,6 +16,8 @@ interface DatabaseHelper {
 
     fun addTraining(userId: String, training: Training, returningUser: () -> Unit)
 
+    fun updateTraining(userId: String, training: Training, returningTraining: () -> Unit)
+
     fun saveUserDetails(user: UserUpdateProfile, lambda: (UserUpdateProfile) -> Unit)
 
     fun saveUserWeight(user: UserUpdateProfile, lambda: () -> Unit)

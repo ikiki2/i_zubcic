@@ -1,6 +1,9 @@
 package com.izubcic.gymApp.commons.extensions
 
 import android.content.Context
+import android.util.Log
+import android.view.View
+import android.widget.Button
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseUser
 import com.izubcic.gymApp.data.model.User

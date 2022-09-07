@@ -49,6 +49,29 @@ class DatabaseHelperImpl constructor(private val reference: DatabaseReference) :
             })
     }
 
+    override fun updateTraining(userId: String, training: Training, returningTraining: () -> Unit) {
+        val userTraining = reference.child("users").child(userId).child("trainings")
+            .child(training.id).updateChildren(
+            mapOf(
+                "title" to training.title,
+                "description" to training.description,
+            )
+        )
+
+        userTraining.addOnCompleteListener(object : DatabaseReference.CompletionListener,
+            OnCompleteListener<Void> {
+            override fun onComplete(error: DatabaseError?, ref: DatabaseReference) {
+                returningTraining()
+            }
+
+            override fun onComplete(p0: Task<Void>) {
+                returningTraining()
+            }
+
+        })
+    }
+
+
     override fun onItemDeleted(userId: String, training: Training, lambda: () -> Unit) {
         val trainings =
             reference.child("users").child(userId).child("trainings").child(training.id)

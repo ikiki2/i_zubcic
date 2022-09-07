@@ -10,7 +10,6 @@ import com.izubcic.gymApp.ui.trainings.holder.TrainingViewHolder
 
 class TrainingsAdapter(private val listener: OnItemClickListener) :
     RecyclerView.Adapter<TrainingViewHolder>() {
-
     private val trainings: MutableList<Training> = mutableListOf()
 
     fun setItems(list: List<Training>) {
@@ -36,9 +35,10 @@ class TrainingsAdapter(private val listener: OnItemClickListener) :
         val training = trainings[position]
         holder.run {
             setItem(training)
-            listener.let { this }
+           listener.let { this }
         }
     }
 
     override fun getItemCount(): Int = trainings.size
+
 }
