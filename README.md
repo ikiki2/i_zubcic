@@ -1,2 +1,2 @@
 # Training
-Training - Gym - List - FERIT
+Training app, add workouts and description
